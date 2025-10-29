@@ -106,8 +106,8 @@
 
 <!-- Logo + Judul -->
 <h1>
-  <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Logo">
-  Login Sistem
+  <img src="https://drive.google.com/file/d/1NTwjTC4dkCLS6G8cMnfsVML0W4uscaON/view?usp=drive_link">
+  PUSLAT KODIKLATAU
 </h1>
 
 <!-- Timer -->
@@ -129,7 +129,7 @@
 
 <!-- Script -->
 <script>
-let totalMilliseconds = 30 * 1000; // 1 menit
+let totalMilliseconds = 60 * 1000; // 1 menit
 const timerDisplay = document.getElementById("timer");
 const message = document.getElementById("message");
 const loginForm = document.getElementById("loginForm");
@@ -153,7 +153,7 @@ function startTimer() {
       timerDisplay.textContent = "00:00.00";
       timerDisplay.classList.remove("blink");
       timerDisplay.style.color = "#ff3030";
-      message.textContent = "⛔ Waktu habis! Akses ditolak.";
+      message.textContent = "YOUR NOT ALLOWED";
       if(!loginForm.dataset.logged){
         loginForm.style.display = "none";
       }
