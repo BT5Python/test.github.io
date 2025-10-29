@@ -16,7 +16,7 @@
     height: 100vh;
     margin: 0;
     background-color: #000;
-    background-image: url('https://drive.google.com/file/d/1Cyn3ew37Ymg6QSpyTFJrcUJrJVzE5mlV/view?usp=drive_link'); /* Ganti dengan gambar background */
+    background-image: url('https://i.imgur.com/8Km9tLL.jpg'); /* Ganti dengan gambar background */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 
   /* ===== Header & Logo ===== */
   h1 {
-    font-size: 75px;
+    font-size: 28px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -106,8 +106,8 @@
 
 <!-- Logo + Judul -->
 <h1>
-  <img src="https://drive.google.com/file/d/1NTwjTC4dkCLS6G8cMnfsVML0W4uscaON/view?usp=drive_link">
-  PUSLAT KODIKLATAU
+  <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Logo">
+  Login Sistem
 </h1>
 
 <!-- Timer -->
@@ -153,7 +153,7 @@ function startTimer() {
       timerDisplay.textContent = "00:00.00";
       timerDisplay.classList.remove("blink");
       timerDisplay.style.color = "#ff3030";
-      message.textContent = "YOUR NOT ALLOWED";
+      message.textContent = "⛔ Waktu habis! Akses ditolak.";
       if(!loginForm.dataset.logged){
         loginForm.style.display = "none";
       }
